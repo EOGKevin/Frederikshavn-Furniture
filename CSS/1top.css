@@ -1,0 +1,101 @@
+body {
+    /* Orange: */
+    /* background-color: hsl(39, 100%, 59%); */
+    /* Beige Hvid: */
+    /* background-color: hsl(38, 100%, 95%); */
+    /* Mørke brun:  */
+    /* background-color: hsl(0, 50%, 5%); */
+    /* Grå: */
+    /* background-color: hsl(0, 5%, 70%); */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+
+    
+}
+
+.sidehoved {
+
+}
+
+hr {
+    margin-top: 2px;
+    color: darkgray;
+}
+
+.menu {
+    background-color: hsl(0, 50%, 5%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    height: 50px;
+    align-items: center;   
+}
+
+.social > i {
+    color: hsl(39, 100%, 59%);
+    
+}
+
+.menu > a {
+    text-decoration: none;
+    color: hsl(39, 100%, 59%);
+    font-weight: 300;   
+}
+
+.menu-billede {
+    background-image: url(../img/header.jpg);
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    /* background-position-y: 200px; */
+    background-position-y: -610px;
+    height: 370px;
+    display: flex;
+    align-items:flex-start;
+    padding: 10px;
+}
+
+.menu-text {
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 15px;
+    
+    
+}
+
+.menu-text > p:first-child {
+    margin-top: 0px;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.menu-text > p:nth-child(2) {
+    color: orange;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.sidemidt {
+    background-image: url(../img/Subtle-Stripes.svg);
+    height: 1300px;
+}
+
+.stole {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stol1 > img, .stol2 > img, .stol3 > img, .stol4 > img, .stol5 > img, .stol6 > img {
+    width: 210px;
+}
+
+.stol1 > p:first-child {
+    
+}
